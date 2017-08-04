@@ -1,6 +1,3 @@
-# tea_lovers
-Leccion 50 Proyecto Final v. Prototyper
-
 ** Requerimientos Técnicos **
 
 El proyecto fue realizado con las siguientes dependencias NPM:

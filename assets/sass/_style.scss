@@ -1,0 +1,213 @@
+/* 
+Código Hexadecimal verde: #8EC641
+Código Hexadecimal gris footer: #3B3B3B
+color rosado:#eb9a9e;
+color verde limon:#efe4b3;
+color verde: #8fc44b;
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+/*SECCION 1: HOME */
+/* ver como funciona menu HUGE Inc. y modificar */
+
+
+/* fin nav */
+#home {
+  background: url('../img/fondo-bienvenida.jpg');
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.logo {
+  text-align: left;
+  padding: 0 30px;
+}
+
+.mensaje {
+  text-align: center;
+}
+
+/* Secciones fondo de color */
+.color {
+  background-color: #8EC641;
+}
+
+/*SECCION 2: VIDEO */
+#video{
+  height: auto;
+  padding: 0;
+/*height: 120%;
+  width: 100%;
+*/
+  z-index: -100;
+  position: relative;
+  top: 0;
+}
+
+/*SECCION 3: NUESTRA PASION */
+
+#nuestra-pasion {
+  background: url('../img/fondo-about.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+.text-tea{
+  color:#eb9a9e;
+}
+
+.contenido {
+  color: white;
+  width: 40%;
+  margin: 0 auto;
+  padding: 30px 30px 100px 30px;
+}
+
+.contenido h1 {
+  font-weight: bolder;
+  font-size: 5rem;
+  line-height: 5rem;
+  text-transform: uppercase;
+}
+
+/* tipos de te */
+
+section#tipos-te {
+    padding: 50px 0;
+
+}
+
+
+/*SECCION 4: FOTOS */
+
+/* Por falta de tiempo no alcance a implementar efectos
+pero los tengo! */
+
+/* https://codepen.io/kanishkkunal/pen/emdxLm 
+Zoom on Image when Hover with CSS */
+/*https://jsfiddle.net/tcloninger/e5qaD/
+Fade in para textos */
+/*https://www.sitepoint.com/scroll-based-animations-jquery-css3/#scroll-animation-examples
+Animacion fotos (slides)*/
+#nuestra-pasion{
+	margin-top: -6px;
+
+}
+.tea1{
+	background: url('../img/min-video-1-2.jpg');
+	background-size: cover;
+	background-position: center;
+    padding: 215px 215px 360px;
+    margin-left: -12px;
+}
+.tea2{
+	background: url('../img/min-video-3.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 100px 40px 148px 43px;
+    /* margin: 20px; */
+    margin-left: -34px;
+}
+.tea3{
+	background: url('../img/min-video-5.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 86px;
+    padding-bottom: 114px;
+    margin-left: -22px;
+    margin-right: -22px;
+}
+.tea4{
+	background: url('../img/min-video-6.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 143px 210px 119px 206px;
+	margin: -20px -11px -20px -22px;
+}
+/*SECCION 5: PREGUNTAS SOBRE EL TE */
+
+#preguntas {
+	background: url('../img/disfruta.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
+	margin-top: -21px;
+}
+
+/* SECCION 6: LAS PREGUNTAS */
+
+.col.l6.question {
+    padding: 50px 110px 160px;
+    text-align: center;
+}
+
+.photo1-question{
+    padding: 160px 110px;
+    background-color: #efe4b3;
+}
+.photo2-question{
+    padding: 160px 110px;
+	background-color: #8fc44b;
+}
+.photo3-question{
+    padding: 160px 110px;
+	background-color:#eb9a9e;
+}
+
+
+/* SECCION 7: LOS CAMPOS */
+
+#campos{
+  background: url('../img/parallax-4.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+/* SECCION 8: CAROUSEL */
+
+.carousel{
+	height: 600px;
+}
+
+.carousel-slider{
+	width: 100%;
+	height: 100%;
+}
+/* SECCION 9: AMAMOS EL TE */
+
+hr{
+	border-bottom: 3px solid black;
+    width: 70px;
+}
+.text-tea-lovers {
+    padding-left: 140px;
+}
+
+
+/* FOOTER */
+footer {
+  background-color: #3B3B3B;
+  padding: 20px 30px;
+  color: #555b59;
+}
+
+
+
+
+
+
+
+
+
+
